@@ -1,0 +1,286 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: local("Roboto-Regular"), url("/fonts/Roboto-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Bold"), url("/fonts/Roboto-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    min-width: 320px;
+    width: 100%;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+}
+
+ /* glob */
+
+ :root {
+    --gap: 30px;
+ }
+
+ .list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+ .flex {
+    display: flex;
+ }
+
+ .box {
+    max-width: 1440px;
+    margin: auto;
+ }
+
+ .button {
+    border: none;
+    border-radius: 20px;
+    background-color: #3F2AFF;
+ }
+
+ .section__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: "Roboto-Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #2E2B44;
+ }
+
+ .section__descr {
+    margin: 0;
+    font-family: "Roboto-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+ }
+
+
+   /* header */
+
+   .header {
+    position: relative;
+  }
+   
+   .title:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .header__container {
+    padding: 30px 165px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    min-height: 80px;
+    background-color: #3F2AFF;
+  }
+
+  .header__logo {
+   
+  }
+
+  .header__nav {
+
+  }
+
+  .nav__list {
+   
+  }
+
+  .nav__item {
+   margin-right: 56px;
+  }
+
+  .nav__item:last-child {
+    margin-right: 0;
+   }
+
+  .nav__link {
+   font-family: "Roboto-Regular", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF;
+   cursor: pointer;
+  }
+
+  
+  /* hero */
+
+  .hero__box {
+    padding: 15px 165px 12px;
+    height: 620px;
+    height: 100%;
+    background: radial-gradient(#555681,#212133);
+  }
+
+  .hero__left {
+    flex-direction: column;
+    margin-right: 18px;
+    max-width: 480px;
+  }
+
+  .hero__title {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 60px;
+   color:#FFFFFF;
+  }
+
+  .hero__descr {
+   margin-bottom: 70px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   color:#FFFFFF;
+
+  }
+
+  .hero__btn {
+   /* padding: 23px 75px; */
+   text-align: center;
+   width: 270px;
+   height: 70px;
+   font-family: "Roboto-Bold", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF;
+  }
+
+  .hero__right {
+  
+  }
+
+  .hero__img {
+   max-width: 100%;
+  }
+
+
+  /* benefits */
+
+  .benefits__box {
+    padding: 80px 165px;
+    /* padding: calc(50px + (80 - 50) * ((100vw - 320px) \ (1440 - 320))); */
+  }
+
+  .benefits__block {
+   
+  }
+
+  .benefits__img {
+   margin-right: 30px;
+   max-width: 160px;
+   min-height: 142px;
+  }
+
+  .benefits__content {
+    flex-direction: column;
+    max-width: 585px;
+  }
+
+  .benefits__title {
+
+  }
+
+  .benefits__descr {
+   margin-bottom: 30px;
+  }
+
+  .benefits__list {
+   align-items: center;
+  }
+
+  .benefits__item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+
+  .benefits__svg {
+   margin-right: 30px;
+  }
+
+  .benefits__text {
+    max-width: 240px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+
+  /* teachers */
+
+  .teachers__box {
+    padding: 80px 165px;
+    background-color: #212133;
+  }
+
+  .teachers__title {
+    color:#FFFFFF;
+  }
+
+  .teachers__list {
+   --offsets: 3;
+   gap: var(--gap);
+   flex-wrap: wrap;
+  }
+
+  .teachers__item {
+   max-width: 255px;
+   min-height: 360px;
+  }
+
+  .teachers__img {
+
+  }
+
+  .teachers__subtitle {
+
+  }
+
+  .teachers__descr {
+
+  }
+
+  
