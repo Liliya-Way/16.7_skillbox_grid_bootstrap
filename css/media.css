@@ -1,0 +1,86 @@
+@media(max-width: 768px) {
+  .header__container {
+
+  }
+
+  .hero__box {
+    padding: 16.9% 5.2%;
+  }
+
+  .hero__left {
+    margin-right: 12px;
+    max-width: 345px;
+  }
+
+  .hero__title  {
+    padding: 0;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .hero__right {
+    width: 330px;
+  }
+
+  .hero__img {
+    width: 330px;
+  }
+
+  .benefits__box {
+    padding: 10.4% 5.2%;
+  }
+
+  .benefits__img {
+    max-width: 211px;
+    min-height: 142px;
+   }
+
+  .benefits__content {
+    max-width: 450px;
+  }
+
+   .benefits__item {
+    flex-direction: column;
+    width: 210px;
+   }
+
+   .benefits__svg {
+    margin-right: 0;
+    margin-bottom: 15px;
+   }
+
+  .teachers__box {
+    padding: 10.4% 5.2%;
+  }
+
+  .teachers__list {
+   flex-wrap: wrap;
+   }
+
+   .teachers__item {
+    max-width: 328px;
+    min-height: 334px;
+   }
+
+   .teachers__img {
+
+   }
+
+   .courses__box {
+    padding: 10.4% 5%;
+  }
+
+  .courses__item {
+    width: 330px;
+    max-height: 556px;
+   }
+
+   .courses__content {
+    min-height: 376px;
+   }
+
+
+  .footer__container {
+
+  }
+}

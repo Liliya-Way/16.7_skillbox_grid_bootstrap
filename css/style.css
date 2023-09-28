@@ -114,10 +114,9 @@ body {
   }
 
   .header__container {
-    padding: 30px 165px;
+    padding: 2.08% 11.5%;
     justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
+    max-width: 1440px;
     min-height: 80px;
     background-color: #3F2AFF;
     font-size: 0;
@@ -156,7 +155,7 @@ body {
   /* hero */
 
   .hero__box {
-    padding: 15px 165px 12px;
+    padding: 1.04% 10% 1%;
     height: 620px;
     height: 100%;
     font-size: 0;
@@ -203,14 +202,14 @@ body {
   }
 
   .hero__img {
-   max-width: 100%;
+
   }
 
 
   /* benefits */
 
   .benefits__box {
-    padding: 80px 165px;
+    padding: 4.8% 10%;
     font-size: 0;
     /* padding: calc(50px + (80 - 50) * ((100vw - 320px) \ (1440 - 320))); */
   }
@@ -242,7 +241,6 @@ body {
    align-items: center;
    --offsets: 3;
    gap:var(--gap);
-   flex-wrap: wrap;
   }
 
   .benefits__svg {
@@ -260,7 +258,7 @@ body {
   /* teachers */
 
   .teachers__box {
-    padding: 80px 165px;
+    padding: 4.8% 10%;
     background-color: #212133;
   }
 
@@ -271,7 +269,6 @@ body {
   .teachers__list {
    --offsets: 3;
    gap: var(--gap);
-   flex-wrap: wrap;
   }
 
   .teachers__item {
@@ -301,7 +298,7 @@ body {
   /* courses */
 
   .courses__box {
-   padding: 80px 165px;
+    padding: 4.8% 9.9%;
   }
 
   .courses__title {
@@ -316,7 +313,7 @@ body {
 
   .courses__item {
    position: relative;
-   width: 540px;
+   max-width: 540px;
    min-height: 480px;
    font-size: 0;
   }
@@ -346,7 +343,7 @@ body {
   .courses__content {
    display: flex;
    flex-direction: column;
-   padding: 30px;
+   padding: 25px;
    min-height: 300px;
    border-radius: 0px 0px 20px 20px;
    background-color: #EDF0F9;
@@ -384,7 +381,7 @@ body {
   }
 
   .footer__container {
-    padding: 28px 627px;
+    padding: 1.95% 43.5%;
     background-color: #2E2B44;
   }
 

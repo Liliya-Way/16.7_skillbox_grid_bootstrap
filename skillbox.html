@@ -6,7 +6,9 @@
     <title>Skillbox</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 <body>
     <header class="header">
@@ -36,7 +38,7 @@
             </div>
             <div class="hero__right">
                 <picture>
-                    <source srcset="/img/bg.png" media="(max-width:320px)">
+                    <source media="(max-width: 768px)" srcset="https://i.ibb.co/DCncrj9/bg-768.png">
                     <img class="hero__img" src="/img/bg.png" alt="">
                 </picture>
             </div>
@@ -47,7 +49,7 @@
             <div class="benefits__box box">
            <div class="benefits__block flex">
             <picture>
-            <source srcset="/img/pic.png" media="(max-width: 768px)">
+            <source media="(max-width: 768px)" srcset="https://i.ibb.co/mTWFCtm/pic-768.png">
             <img class="benefits__img" src="/img/pic.png" alt="">
             </picture>
             <div class="benefits__content flex">
@@ -58,8 +60,8 @@
             </div>
            </div>
             <ul class="benefits__list flex list-reset">
-           <li class="col- benefits__item">
-            <div class="flex">
+           <li class="col-">
+            <div class="benefits__item flex">
             <svg class="benefits__svg" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_51_142)">
                 <path d="M40 0C34.7471 0 29.5457 1.03463 24.6927 3.04482C19.8396 5.05501 15.4301 8.00138 11.7157 11.7157C4.21427 19.2172 0 29.3913 0 40C0 50.6087 4.21427 60.7828 11.7157 68.2843C15.4301 71.9986 19.8396 74.945 24.6927 76.9552C29.5457 78.9654 34.7471 80 40 80C50.6087 80 60.7828 75.7857 68.2843 68.2843C75.7857 60.7828 80 50.6087 80 40C80 34.7471 78.9654 29.5457 76.9552 24.6927C74.945 19.8396 71.9986 15.4301 68.2843 11.7157C64.5699 8.00138 60.1604 5.05501 55.3073 3.04482C50.4543 1.03463 45.2529 0 40 0ZM40 56C29.48 56 20 49.72 16 40C21.52 26.76 36.76 20.48 50 26C56.32 28.64 61.36 33.68 64 40C60 49.72 50.52 56 40 56Z" fill="#3F2AFF"/>
@@ -74,8 +76,8 @@
             <p class="benefits__text section__descr">Результат вашего обучения является самым важным для нас приоритетом</p>
             </div>
             </li>
-            <li class="col- benefits__item">
-                <div class="flex">
+            <li class="col-">
+                <div class="benefits__item flex">
                 <svg class="benefits__svg" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_51_129)">
                     <g clip-path="url(#clip1_51_129)">
@@ -99,8 +101,8 @@
             <p class="benefits__text section__descr">Лично познакомитесь с&nbsp;одним из&nbsp;своих будущих преподавателей</p>
              </div>
             </li>
-            <li class="col- benefits__item">
-                <div class="flex">
+            <li class="col-">
+                <div class="benefits__item flex">
                 <svg class="benefits__svg" width="78" height="80" viewBox="0 0 78 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_51_116)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M24.0068 3.04482C28.725 1.03463 33.7819 0 38.8889 0C43.9958 0 49.0528 1.03463 53.771 3.04482C58.4892 5.05501 62.7763 8.00138 66.3875 11.7157C69.9986 15.4301 72.8632 19.8396 74.8175 24.6927C76.7719 29.5457 77.7778 34.7471 77.7778 40C77.7778 50.6087 73.6806 60.7828 66.3875 68.2843C59.0944 75.7857 49.2029 80 38.8889 80C33.7819 80 28.725 78.9654 24.0068 76.9552C19.2885 74.945 15.0015 71.9986 11.3903 68.2843C4.09721 60.7828 0 50.6087 0 40C0 29.3913 4.09721 19.2172 11.3903 11.7157C15.0015 8.00138 19.2885 5.05501 24.0068 3.04482ZM39.2361 62.1429C50.9338 62.1429 60.4167 52.3891 60.4167 40.3571C60.4167 28.3252 50.9338 18.5714 39.2361 18.5714C27.5384 18.5714 18.0556 28.3252 18.0556 40.3571C18.0556 52.3891 27.5384 62.1429 39.2361 62.1429Z" fill="#3F2AFF"/>
@@ -131,28 +133,40 @@
             <ul class="teachers__list flex list-reset">
                 <li class="col-">
                     <div class="teachers__item">
-                    <img class="teachers__img" src="/img/photo_1.png" alt="">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="https://i.ibb.co/TWZXb4w/photo-1-768.png">
+                        <img class="teachers__img" src="/img/photo_1.png" alt="">
+                      </picture>
                     <h3 class="teachers__subtitle">Владимир Петров</h3>
                     <p class="teachers__descr section__descr">Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной степени предоставлены сами себе.</p>
                     </div>
                 </li>
                 <li class="col-">
                     <div class="teachers__item">
-                    <img class="teachers__img" src="/img/photo_2.png" alt="">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="https://i.ibb.co/zGXjVPZ/photo-2-768.png">
+                        <img class="teachers__img" src="/img/photo_2.png" alt="">
+                      </picture>
                     <h3 class="teachers__subtitle">Денис Сергеев</h3>
                     <p class="teachers__descr section__descr">Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.</p>
                     </div>
                 </li>
                 <li class="col-">
                     <div class="teachers__item">
-                    <img class="teachers__img" src="/img/photo_3.png" alt="">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="https://i.ibb.co/wrML8bH/photo-3-768.png">
+                        <img class="teachers__img" src="/img/photo_3.png" alt="">
+                      </picture>
                     <h3 class="teachers__subtitle">Михаил Андреев</h3>
                     <p class="teachers__descr section__descr">Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от&nbsp;вывода.</p>
                     </div>
                 </li>
                 <li class="col-">
                     <div class="teachers__item">
-                    <img class="teachers__img" src="/img/photo_4.png" alt="">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="https://i.ibb.co/dQsyf8M/photo-4-768.png">
+                        <img class="teachers__img" src="/img/photo_4.png" alt="">
+                      </picture>
                     <h3 class="teachers__subtitle">Константин Дмитриев</h3>
                     <p class="teachers__descr section__descr">Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём классическом представлении.</p>
                     </div>
