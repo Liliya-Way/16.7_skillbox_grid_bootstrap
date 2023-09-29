@@ -113,6 +113,10 @@ body {
     overflow: hidden;
   }
 
+  .burger {
+    display: none;
+  }
+
   .header__container {
     padding: 2.08% 11.5%;
     justify-content: space-between;
@@ -182,7 +186,6 @@ body {
    font-size: 18px;
    line-height: 27px;
    color:#FFFFFF;
-
   }
 
   .hero__btn {
