@@ -212,7 +212,7 @@ body {
   /* benefits */
 
   .benefits__box {
-    padding: 4.8% 10%;
+    padding: 4.8% 9.9%;
     font-size: 0;
     /* padding: calc(50px + (80 - 50) * ((100vw - 320px) \ (1440 - 320))); */
   }
@@ -241,17 +241,24 @@ body {
   }
 
   .benefits__list {
-   align-items: center;
+   /* align-items: center;
    --offsets: 3;
-   gap:var(--gap);
+   gap:var(--gap); */
+  }
+
+  .benefits__item {
+    /* width: 350px; */
   }
 
   .benefits__svg {
    margin-right: 30px;
   }
+  .benefits__div {
+    /* width: 240px; */
+  }
 
   .benefits__text {
-    max-width: 240px;
+    /* width: 240px; */
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -261,7 +268,7 @@ body {
   /* teachers */
 
   .teachers__box {
-    padding: 4.8% 10%;
+    padding: 4.8% 9.9%;
     background-color: #212133;
   }
 
@@ -270,13 +277,13 @@ body {
   }
 
   .teachers__list {
-   --offsets: 3;
-   gap: var(--gap);
+   /* --offsets: 3;
+   gap: var(--gap); */
   }
 
   .teachers__item {
-   max-width: 255px;
-   min-height: 360px;
+   /* max-width: 255px;
+   min-height: 360px; */
   }
 
   .teachers__img {
@@ -301,7 +308,7 @@ body {
   /* courses */
 
   .courses__box {
-    padding: 4.8% 9.9%;
+    padding: 4.8% 9.9% 3%;
   }
 
   .courses__title {
@@ -309,17 +316,22 @@ body {
   }
 
   .courses__list {
-   --offsets: 1;
+   /* --offsets: 1;
    gap: var(--gap);
-   flex-wrap: wrap;
+   flex-wrap: wrap; */
   }
 
   .courses__item {
    position: relative;
-   max-width: 540px;
-   min-height: 480px;
+   margin-bottom: 30px;
+   /* max-width: 540px;
+   min-height: 480px; */
    font-size: 0;
   }
+
+  /* .courses__item:not(:last-child) {
+    margin-bottom: 30px;
+  } */
 
   .courses__img {
 

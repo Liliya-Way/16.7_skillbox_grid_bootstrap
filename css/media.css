@@ -25,7 +25,7 @@
   /* benefits */
 
   .benefits__box {
-    padding: 10.4% 5.2%;
+    padding: 10.4% 3.2%;
   }
 
   .benefits__img {
@@ -39,7 +39,7 @@
 
    .benefits__item {
     flex-direction: column;
-    max-width: 210px;
+    /* max-width: 210px; */
    }
 
    .benefits__svg {
@@ -50,7 +50,11 @@
    /* teachers */
 
   .teachers__box {
-    padding: 10.4% 5.2%;
+    padding: 10.4% 3.2%;
+  }
+
+  .teachers__title {
+    padding-left: 15px;
   }
 
   .teachers__list {
@@ -58,19 +62,24 @@
    }
 
    .teachers__item {
-    max-width: 328px;
-    min-height: 334px;
+    margin-bottom: 30px;
+    /* max-width: 328px;
+    min-height: 334px; */
    }
 
    /* courses */
 
    .courses__box {
-    padding: 10.4% 5%;
+    padding: 10.4% 3.2%;
+  }
+
+  .courses__title {
+    padding-left: 15px;
   }
 
   .courses__item {
-    width: 330px;
-    min-height: 556px;
+    /* width: 330px; */
+    /* min-height: 556px; */
    }
 
    .courses__content {
@@ -121,24 +130,29 @@
    }
 
    .benefits__box {
-    padding: 13.8% 5.7%;
+    padding: 13.8% 3%;
+  }
+
+
+  .benefits__block {
+    padding: 0 15px;
   }
 
     /* teachers */
 
   .teachers__box {
-    padding: 13.8% 5.7%;
+    padding: 13.8% 3%;
   }
 
   .teachers__item {
-    max-width: 240px;
-    min-height: 653px;
+    /* max-width: 240px; */
+    /* min-height: 653px; */
    }
 
     /* courses */
 
    .courses__box {
-    padding: 13.8% 5.7%;
+    padding: 13.8% 3%;
   }
 
   .courses__item {
@@ -192,7 +206,7 @@
 
   .burger__line:nth-child(2) {
     top: 50%;
-    transform: translateX(50%, 50%);
+    transform: translateX(50%);
   }
 
   .burger__line:nth-child(3) {
@@ -241,7 +255,11 @@
   /* benefits */
 
    .benefits__box {
-    padding: 15.6% 4.68%;
+    padding: 15.6% 0;
+  }
+
+  .benefits__content {
+    padding: 0 15px;
   }
 
   .benefits__img {
@@ -260,7 +278,9 @@
 
    .benefits__item {
     flex-direction: row;
-    max-width: 290px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    width: 290px;
    }
 
    .benefits__svg {
@@ -276,19 +296,20 @@
   /* teachers */
 
   .teachers__box {
-    padding: 15.6% 4.68%;
+    padding: 15.6% 0;
   }
 
   .teachers__title {
     margin-bottom: 30px;
+    padding-left: 15px;
     font-size: 20px;
     line-height: 20px;
   }
 
   .teachers__item {
-    max-width: 290px;
+    /* max-width: 290px;
     max-width: 100%;
-    min-height: 340px;
+    min-height: 340px; */
    }
 
    .teachers__img {
@@ -298,7 +319,11 @@
      /* courses */
 
      .courses__box {
-      padding: 15.6% 4.68%;
+      padding: 15.6% 0;
+    }
+
+    .courses__title {
+      padding-left: 15px;
     }
 
     .courses__item {
